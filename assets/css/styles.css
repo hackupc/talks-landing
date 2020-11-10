@@ -1,5 +1,3 @@
-
-
 html, body {
     font-family: 'Montserrat', sans-serif;
     width: 100%;
@@ -26,7 +24,7 @@ nav {
 }
 
 .navbar-brand img {
-    padding-right: 0.5em;
+    padding-right: 0.2em;
 }
 
 .navbar-brand {
@@ -52,7 +50,7 @@ nav {
 /**   Header   **/
 
 .image-main {
-    width: 55%;
+    width: 30%;
     height: auto;
 }
 
@@ -99,24 +97,8 @@ nav {
 
 /**   Utils   **/
 
-.margin-15{
-    margin-left: 0px !important;
-}
-
-.start-align {
-    text-align: start;   
-}
-
 .auto-center {
     margin: 0 auto !important;
-}
-
-.light-text {
-    font-weight: 500;
-}
-
-.bold-text {
-    font-weight: 600;
 }
 
 /** Section **/
