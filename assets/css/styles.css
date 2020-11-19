@@ -220,6 +220,22 @@ nav {
     margin-bottom: 1em;
 }
 
+@media (max-width: 500px) {
+    .description-talk {
+        display: none;
+    }
+}
+
+.more-info-talk {
+    display: none;
+}
+
+
+@media (max-width: 500px) {
+    .more-info-talk {
+        display: block;
+    }
+}
 
 /**  Paralax  **/
 
