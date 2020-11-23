@@ -262,7 +262,15 @@ nav {
     }
 
     .paper-content h1 {
-        font-size: 25px;
+        font-size: 23px;
+    }
+
+    .paper-content p {
+        line-height: 20px;
+    }
+
+    .image-main{
+        display: none;
     }
 }
 
