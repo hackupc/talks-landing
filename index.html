@@ -172,7 +172,7 @@
                     <form name="subscribe" method="POST" data-netlify="true">
                         <div class="modal-body">
                             <p>
-                            <input type="email" name="email" placeholder="Email (required)"/>
+                            <input type="email" name="email" placeholder="Email" required/>
                             </p>
                             <p> Select the language you prefer to recive the emails
                             <select name="language" id="language" required>
@@ -180,6 +180,9 @@
                                 <option value="ingles">English</option>
                                 <option value="castella">Spanish</option>
                             </select>
+                            </p>
+                            <p>
+                                <input type="checkbox" name="checkbox-privacy" required /> I have read and I accept the <a href="https://legal.hackersatupc.org/talks_and_workshops/talks_privacy_and_cookies">Privacy notes and cookies</a>.
                             </p>
                         </div>
                         <div class="modal-footer">
@@ -257,6 +260,9 @@
                         </p>
                         <p>
                           <textarea name="message" placeholder="Write here your suggestions, either a speaker or topics for future T&W. We are open to everything!" required></textarea>
+                        </p>
+                        <p style="color:white">
+                            <input type="checkbox" name="checkbox-privacy" required /> I have read and I accept the <a href="https://legal.hackersatupc.org/talks_and_workshops/talks_privacy_and_cookies">privacy notes and cookies</a>.
                         </p>
                         <p>
                           <button type="submit" class="form-button">Send</button>
@@ -392,8 +398,8 @@
                 <div class="row">
                     <div class="col col-lg-10 auto-center text-center">
                         <p>
-                            <a target="_blank" href="https://hackersatupc.org/assets/docs/HFH_LN.pdf">Legal notice</a> | 
-                            <a target="_blank" href="https://hackersatupc.org/assets/docs/HFH_PC.pdf">Privacy and cookies</a>
+                            <a target="_blank" href="https://legal.hackersatupc.org/talks_and_workshops/talks_legal_notice">Legal notice</a> | 
+                            <a target="_blank" href="https://legal.hackersatupc.org/talks_and_workshops/talks_privacy_and_cookies">Privacy and cookies</a>
                         </p>
                     </div>
                 </div>
