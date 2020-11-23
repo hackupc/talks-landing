@@ -81,6 +81,7 @@ nav {
     color: white;
 }
 
+
 /**  SECCIO FUTURA TALK  **/
 
 .paper {
@@ -121,7 +122,7 @@ nav {
 	position: relative;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     .calendar {
         margin: 2px;
         margin-top: 20px;
@@ -210,7 +211,7 @@ nav {
     font-size: 30px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     .paper-content h1 {
         font-size: 25px;
     }
@@ -220,7 +221,7 @@ nav {
     margin-bottom: 1em;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     .description-talk {
         display: none;
     }
@@ -231,11 +232,44 @@ nav {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     .more-info-talk {
         display: block;
     }
 }
+
+.more-info-languages {
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #597ce6;
+    border: none;
+    border-radius: 15px;
+    float: right;
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
+}
+
+.more-info-languages:hover {background-color: #132047}
+
+.register-button {
+    display: inline-block;
+    padding: 10px 50px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #597ce6;
+    border: none;
+    border-radius: 15px;
+    margin-top: 1em;
+}
+
+.register-button:hover {background-color: #132047}
+
 
 /**  Paralax  **/
 
@@ -316,6 +350,24 @@ input[type=email] {
     box-sizing: border-box;
 }
 
+select {
+    width: 70%;
+    padding: 10px 20px;
+    margin-top: 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+option {
+    width: 70%;
+    padding: 10px 20px;
+    margin-top: 5px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
 textarea {
     width: 70%;
     height: 150px;
@@ -331,7 +383,6 @@ textarea {
     display: inline-block;
     padding: 10px 50px;
     font-size: 16px;
-    cursor: pointer;
     text-align: center;
     text-decoration: none;
     outline: none;

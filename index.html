@@ -91,32 +91,107 @@
                                         <div class="day">November</div>
                                         <div class="day-number">25</div>
                                     </figure>
-                                    <p>19.00 (GMT+2)</p>
-                                    <p>En twitch</p>
+                                    <p class="hora-talk">🕖 19.00 (GMT+1)</p>
+                                    <p class="where-talk"><i aria-hidden="true" class="fa fa-twitch fa-lg"></i><a href="https://www.twitch.tv/hackersupc"> Hackers@UPC channel</a></p>
                                 </div>
-                                <div>
-                                    <h1 style="font-weight: bold;">Animaciones en css: buenas prácticas y trucos</h1>
+                                <div style="margin-left: 1em;">
+                                    <h1 style="font-weight: bold; margin-top: 0.5em;">Animations in CSS: good practices and tricks</h1>
                                     <div class="description-talk">
-                                        <p>Crear buenas animaciones para tu página web no es difícil. Aprenderás cuando y como utilizar animaciones junto con consejos para programarlas fácilmente con CSS. No se requieren conocimientos previos.</p>
-                                        <p style="text-align: right;">By: Maurici Abad - Frontend Engineer at Glovo</p>
-                                    </div>
+                                        <p style="margin-bottom: 0.5em; text-align: justify;">Creating good animations for your website is not difficult. You will learn when and how to use animations along with tips to easily program them with CSS. No prior knowledge is required.</p>
+                                        <p style="text-align: right; margin-bottom: 0.5em;">Language: Spanish</p>
+                                        <p style="text-align: right; margin-bottom: 0.5em;">By: Maurici Abad - Frontend Engineer at Glovo</p>
+                                        <button class="more-info-languages" data-toggle="modal" data-target="#modalInfo1"><i aria-hidden="true" class="fa fa-info fa-lg"></i></button>
+                                    </div>                                
                                     <div class="more-info-talk">
-                                        <button class="form-button">More information</button>
-                                        <!-- <p>Crear buenas animaciones para tu página web no es difícil. Aprenderás cuando y como utilizar animaciones junto con consejos para programarlas fácilmente con CSS. No se requieren conocimientos previos.</p>
-                                        <p style="text-align: right;">By: Maurici Abad - Frontend Engineer at Glovo</p> -->
+                                        <p style="text-align: right; margin-bottom: 0.5em;">Language: Spanish</p>
+                                        <p style="text-align: right;">By: Maurici Abad - Frontend Engineer at Glovo</p> 
+                                        <button class="more-info-languages" data-toggle="modal" data-target="#modalInfo2"><i aria-hidden="true" class="fa fa-info fa-lg"></i></button>
                                     </div>
                                 </div>   
-                            </div>                                                     
-                           <!-- <div class="buttons">
-                                <button class="form-button">Necesary information for setup</button>
-                                <button class="form-button">Register</button>
-                            </div> -->
+                            </div> 
                         </div>                        
                     </div>
+                    <button class="register-button" data-toggle="modal" data-target="#register">Be aware of future talks and activities</button>
                 </div>
             </div>
         </div>
     </header>
+
+    <!-- Modal 1 -->
+    <div class="modal fade" id="modalInfo1" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" style="font-weight: bold;">Animations in CSS: good practices and tricks</h4>
+                </div>
+                <div class="modal-body">
+                    <h5 style="text-align: left;">Castellano</h5>
+                    <p style="margin-bottom: 1em; text-align: justify;">Crear buenas animaciones para tu página web no es difícil. Aprenderás cuando y como utilizar animaciones junto con consejos para programarlas fácilmente con CSS. No se requieren conocimientos previos.</p>
+                    <h5 style="text-align: left;">Català</h5>
+                    <p style="margin-bottom: 0.5em; text-align: justify;">Crear bones animacions per la teva pàgina web no es difícil. Aprendràs quan y com utilitzar animacions juntament amb consells per programarles fácilment amb CSS. No es requereixen coneixements previs.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="form-button" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2-->
+    <div class="modal fade" id="modalInfo2" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" style="font-weight: bold;">Animations in CSS: good practices and tricks</h4>
+                </div>
+                <div class="modal-body">
+                    <h5 style="text-align: left;">English</h5>
+                    <p style="margin-bottom: 1em; text-align: justify;">Creating good animations for your website is not difficult. You will learn when and how to use animations along with tips to easily program them with CSS. No prior knowledge is required.</p>
+                    <h5 style="text-align: left;">Castellano</h5>
+                    <p style="margin-bottom: 1em; text-align: justify;">Crear buenas animaciones para tu página web no es difícil. Aprenderás cuando y como utilizar animaciones junto con consejos para programarlas fácilmente con CSS. No se requieren conocimientos previos.</p>
+                    <h5 style="text-align: left;">Català</h5>
+                    <p style="margin-bottom: 0.5em; text-align: justify;">Crear bones animacions per la teva pàgina web no es difícil. Aprendràs quan y com utilitzar animacions juntament amb consells per programarles fácilment amb CSS. No es requereixen coneixements previs.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="form-button" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3-->
+    <div class="modal fade" id="register" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" style="font-weight: bold;">Be aware of future talks and activities</h4>
+                </div>
+                    <form name="subscribe" method="POST" data-netlify="true">
+                        <div class="modal-body">
+                            <p>
+                            <input type="email" name="email" placeholder="Email (required)"/>
+                            </p>
+                            <p> Select the language you prefer to recive the emails
+                            <select name="language" id="language" required>
+                                <option value="castella">Spanish</option>
+                                <option value="catala">Catalan</option>
+                                <option value="ingles">English</option>
+                            </select>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <p>
+                                <button type="submit" class="form-button">Send</button>
+                                <button type="button" class="form-button" data-dismiss="modal">Close</button>
+                            </p>
+                        </div>
+                    </form>
+            </div>
+        </div>
+    </div>
 
     <div class="container" id="about">
         <div class="row">
@@ -145,7 +220,7 @@
                             </h4>
                             <div class="info">
                                 <p>
-                                    Due to our goal to include as many people as possible, T&W will take place online. The talks will be streamed live on Twitch and discussion will take place afterwards in our Discord server.
+                                    Due to our goal to include as many people as possible, T&W will take place online. The talks will be streamed live on Twitch and discussion will take place afterwards in our Discord server. Each T&W will be recorded on YouTube.
                                 </p>
                             </div>
                         </div>
@@ -157,7 +232,7 @@
                             </h4>
                             <div class="info">
                                 <p> 
-                                    During the semester, we will organize these events periodically. As the dates vary we recommend to anyone interested to subscribe to our email list in order to get information of our future talks or workshops. With each T&W it's date will be announced. Generally, they will take place at 7 p.m. (GMT+2). If you can't participate, don't worry! Each T&W will be recorded on YouTube. And you can use ours Discord to ask to the community.
+                                    During the semester, we will organize these events periodically.  With each T&W it's date and time will be announced. Generally, they will take place at 7 p.m. (GMT+1). As the dates vary we recommend to anyone interested to subscribe to our email list in order to get information of our future talks or workshops.
                                 </p>
                             </div>
                         </div>
@@ -181,7 +256,7 @@
                           <input type="email" name="email" placeholder="Email (optional)"/>
                         </p>
                         <p>
-                          <textarea name="message" placeholder="Write here your suggestion if you want to propose a speaker we are open to it to!" required></textarea>
+                          <textarea name="message" placeholder="Write here your suggestions, either a speaker or topics for future T&W. We are open to everything!" required></textarea>
                         </p>
                         <p>
                           <button type="submit" class="form-button">Send</button>
