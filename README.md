@@ -1,11 +1,11 @@
-# HackFromHome website
+# Talks website
 
 ## Features
 
 - Full static
 - Pure HTML, CSS and JavaScript
 - Easy customization
-- Deployed in GitHub Pages
+- Deployed in Netlify
 
 ## Run project
 
@@ -13,7 +13,7 @@ Needs: Nothing
 
 ### Local
 
-1. Clone repository to your computer with `git clone https://github.com/hackupc/hackathome-landing`
+1. Clone repository to your computer with `git clone https://github.com/hackupc/talks-landing`
 2. `cd` into your repository
 3. Open `index.html`
 
@@ -22,7 +22,7 @@ Needs: Nothing
 1. Push changes to master
 2. There's no `2`
 
-Deployment is done automatically by [GitHub pages](https://pages.github.com/). You don't need to do anything else than pushing to master.
+Deployment is done automatically by [Netlify](https://www.netlify.com/). You don't need to do anything else than pushing to master.
 
 ## License
 
